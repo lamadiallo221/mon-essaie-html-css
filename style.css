@@ -1,0 +1,143 @@
+
+/* Cette partie est reserve pour l'affichage du nav  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cette partie sert a remplissage de la nav */
+.navbar{
+    padding: 15px 20px;
+    background-color: rgb(78, 81, 166);
+    height: 80px;
+    width: 100%;
+}
+/* Fin de la partie */
+
+/* Cette partie sert a afficher normalement tout sur la ligne  */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+
+}
+/* fin de partie */
+
+/* cette partie est pour la liste de nav  */
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    flex: 1;
+    justify-content: center;
+
+}
+.nav-links li{
+    padding: 0% 15px ;
+}
+.nav-links li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1,2rem;
+    font-weight: bold;
+}
+.nav-links li>a:hover{
+    color:black ;
+}
+/* Fin de partie pour la liste de nav  */
+
+/* ce code sert a manipuler l'image */
+.logo img{
+    width: 50px;
+    height: 60px;
+    border-radius: 40px;
+}
+/* Fin de partie pour l'image  */
+
+/* Cette partie sert a sert a faire la disposition de la nav */
+
+.dropdown{
+ position: relative;
+ display: block;
+}
+
+.dropdowncontain{
+    color: white;
+}
+
+.monbutton{
+    background-color:rgb(78, 81, 166);
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+/* Fin de la partie sur le Navbar */
+.presentation{
+    margin: opx;
+    padding: 10px 20px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.presentation div{
+    width: 350px;
+}
+.section1 {
+    background-color:rgb(78, 81, 166) ;
+}
+.section1 p{
+    padding: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;   
+}
+.section2 img{
+     width: 350px;
+     height: 300px;
+     padding: 50px 70px;
+     border-radius: 50%;
+}
+.section2 h1{
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+.section3{
+    padding: 30px;
+    background-color: rgb(78, 81, 166);
+}
+
+.realisation{
+    background-color: rgb(78, 81, 166);
+    width: 100%;
+    height: 100px;
+  
+}
+.titre h1{
+    text-transform: uppercase;
+    text-align: center;
+    position: center;
+    padding: 30px;
+    font-size: 1.8rem;
+}
+.card-realisation{
+    width: 100%;
+    height: 400px;
+    padding: 40px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid black;
+    
+}
+.card h1{
+    text-align: center;
+    padding: 50px;
+}
